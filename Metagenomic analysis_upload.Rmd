@@ -270,7 +270,7 @@ done
 ############################
 # Merge all Bracken outputs into a single matrix per level
 ############################
-COMBINE_SCRIPT=/netscratch/dep_psl/grp_rgo/Qi/Tools/kraken2_db/Bracken/analysis_scripts/combine_bracken_outputs.py
+COMBINE_SCRIPT=/file/to/path/combine_bracken_outputs.py
 
 for level in "${TAX_LEVELS[@]}"; do
   echo "Merging Bracken outputs at level: $level"
